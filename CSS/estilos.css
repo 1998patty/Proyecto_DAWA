@@ -341,3 +341,74 @@ footer a:hover {
 .registro-container button:hover {
     background-color: #1e40af;
 }
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .registro-padre {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Login.html */
+
+.login-padre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container form {
+    display: grid;
+    gap: 1rem;
+}
+
+.login-container label {
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.login-container input {
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.login-container input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.login-container button {
+    padding: 1rem 2rem;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.login-container button:hover {
+    background-color: #1e40af;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .login-padre {
+        grid-template-columns: 1fr;
+    }
+}
