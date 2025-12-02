@@ -473,4 +473,25 @@ footer a:hover {
     background-color: #2563eb;
 }
 
+/* Mensajes de validacion */
+.error-message,
+.success-message {
+    display: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+}
 
+.error-message {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 2px solid #fca5a5;
+}
+
+.success-message {
+    background-color: #d1fae5;
+    color: #065f46;
+    border: 2px solid #6ee7b7;
+}
