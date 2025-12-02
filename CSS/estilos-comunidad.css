@@ -1,4 +1,3 @@
-/* Feed de comunidad */
 .feed-container {
     max-width: 600px;
     margin: 2rem auto;
@@ -151,4 +150,64 @@
 
 .btn-action:active {
     background-color: #e5e7eb;
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+/* Para moviles */
+@media (max-width: 768px) {
+    .feed-container {
+        max-width: 100%;
+        margin: 1rem auto;
+    }
+
+    .crear-post {
+        max-width: 100%;
+        padding: 0.8rem;
+    }
+
+    .crear-post-header {
+        flex-direction: column;
+    }
+
+    .crear-post-header textarea {
+        min-height: 80px;
+    }
+
+    .crear-post-actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .btn-upload,
+    .btn-publicar {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .post-header {
+        padding: 0.8rem;
+    }
+
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .post-info h3 {
+        font-size: 0.9rem;
+    }
+
+    .post-date {
+        font-size: 0.8rem;
+    }
+
+    .post-content {
+        padding: 0 0.8rem 0.8rem;
+    }
+
+    .btn-action {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
 }

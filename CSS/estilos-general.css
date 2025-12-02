@@ -262,3 +262,62 @@ footer a:hover {
     opacity: 1;
     color: #f59e0b;
 }
+
+/* ========== MEDIA QUERIES ========== */
+/* Para moviles */
+@media (max-width: 768px) {
+    header {
+        padding: 2rem 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    main {
+        padding: 2rem 1rem;
+    }
+
+    main section {
+        padding: 1.5rem;
+    }
+
+    main section h2 {
+        font-size: 1.5rem;
+    }
+
+    main section h3 {
+        font-size: 1.2rem;
+    }
+
+    main .grid-2-columnas,
+    main .grid-3-columnas,
+    main .grid-4-columnas {
+        grid-template-columns: 1fr;
+    }
+
+    main .grid-auto {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-secciones {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    footer .container {
+        grid-template-columns: 1fr;
+    }
+}

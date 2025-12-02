@@ -94,3 +94,27 @@
     color: #065f46;
     border: 2px solid #6ee7b7;
 }
+
+/* ========== MEDIA QUERIES ========== */
+/* Para moviles */
+@media (max-width: 768px) {
+    .registro-padre {
+        grid-template-columns: 1fr;
+    }
+
+    .img-container {
+        padding: 1.5rem;
+    }
+
+    .registro-container {
+        padding: 1.5rem;
+    }
+
+    .registro-container input {
+        padding: 0.6rem;
+    }
+
+    .registro-container button {
+        padding: 0.8rem 1.5rem;
+    }
+}

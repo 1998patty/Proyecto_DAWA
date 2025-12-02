@@ -67,3 +67,37 @@
 .dot:hover {
     background-color: #2563eb;
 }
+
+/* ========== MEDIA QUERIES ========== */
+/* Para moviles */
+@media (max-width: 768px) {
+    .carousel-container {
+        max-width: 100%;
+    }
+
+    .carousel-slide .card {
+        max-width: 100%;
+    }
+
+    .carousel-slide .card img {
+        height: 250px;
+    }
+
+    .carousel-btn {
+        padding: 0.7rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .carousel-btn.prev {
+        left: 5px;
+    }
+
+    .carousel-btn.next {
+        right: 5px;
+    }
+
+    .dot {
+        width: 12px;
+        height: 12px;
+    }
+}
